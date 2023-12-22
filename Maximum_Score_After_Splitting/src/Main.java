@@ -4,7 +4,7 @@
 public class Main {
     public static void main(String[] args) {
         Solution obj = new Solution();
-        String s = "1111";
+        String s = "000";
         System.out.println(obj.maxScore(s));
     }
 }

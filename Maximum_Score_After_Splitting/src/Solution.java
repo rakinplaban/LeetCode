@@ -4,10 +4,12 @@ public class Solution {
         int j = 0,k=1;
         int count0 = 0, count1 = 0,max_ = -999;
         for(int i=0;i < s.length();i++){
-            if(s.charAt(j) == '0'){
+            if(s.charAt(j) == '0' && j<s.length()-1){
                 count0++;
-                j++;
+//                j++;
             }
+            if(j<s.length()-1)
+                j++;
 
             if(k<s.length()){
                 for(int l=k;l<s.length();l++){
